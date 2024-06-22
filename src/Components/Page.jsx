@@ -29,8 +29,21 @@ const Page = () => {
                             <li className='text-gray-800'><span className='font-semibold '>Cooking</span>: 5 minutes</li>
                         </ul>
                     </div>
+                </div>
 
 
+                <div className="ingredientsSection border-b border-gray-300 pb-6 space-y-4">
+                    <h1 className='text-2xl font-semibold font-youngSerif text-amber-900'>
+                        Ingredients
+                    </h1>
+
+                    <ul className='list-disc ml-8 space-y-2 text-amber-950'>
+                        <li className='text-gray-800'>2-3 large eggs</li>
+                        <li className='text-gray-800'>Salt, to taste</li>
+                        <li className='text-gray-800'>Pepper, to taste</li>
+                        <li className='text-gray-800'>1 tablespoon of butter or oil</li>
+                        <li className='text-gray-800'>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+                    </ul>
                 </div>
             </div>
         </div>
