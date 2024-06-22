@@ -63,7 +63,56 @@ const Page = () => {
                         <li className='text-[#57574E]'><span className='font-semibold '>Enjoy</span>: Serve hot, with additional salt and pepper if needed.
                         </li>
                     </ul>
+                </div>
 
+                <div className="nutritionSection pt-6 pb-6 space-y-4">
+                    <h1 className='text-2xl font-semibold font-youngSerif text-[#854632]'>
+                        Nutrition
+                    </h1>
+
+                    <p className='text-[#57574E] font-semibold'>
+                        The table below shows nutritional values per serving without the additional fillings.
+                    </p>
+
+                    <div className='flex border-b border-gray-300 py-3 px-8'>
+                        <div className='flex-1'>
+                            <p className='text-[#57574E] font-medium'>Calories</p>
+                        </div>
+
+                        <div className='flex-1'>
+                            <p className='text-[#854632] font-bold'>277kcal</p>
+                        </div>
+                    </div>
+
+                    <div className='flex border-b border-gray-300 py-3 px-8'>
+                        <div className='flex-1'>
+                            <p className='text-[#57574E] font-medium'>Carbs</p>
+                        </div>
+
+                        <div className='flex-1'>
+                            <p className='text-[#854632] font-bold'>0g</p>
+                        </div>
+                    </div>
+
+                    <div className='flex border-b border-gray-300 py-3 px-8'>
+                        <div className='flex-1'>
+                            <p className='text-[#57574E] font-medium'>Protein</p>
+                        </div>
+
+                        <div className='flex-1'>
+                            <p className='text-[#854632] font-bold'>20g</p>
+                        </div>
+                    </div>
+
+                    <div className='flex pt-3 px-8'>
+                        <div className='flex-1'>
+                            <p className='text-[#57574E] font-medium'>Fat</p>
+                        </div>
+
+                        <div className='flex-1'>
+                            <p className='text-[#854632] font-bold'>22g</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
