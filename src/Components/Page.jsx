@@ -4,7 +4,7 @@ import Image from './Image';
 const Page = () => {
     return (
         <div className='w-full bg-[#fadceb] flex justify-center items-center'>
-            <div className="inner-div w-[60%] bg-white rounded-2xl h-fit p-8 my-24">
+            <div className="inner-div w-full md:w-[80%] lg:w-[60%] bg-white rounded-2xl h-fit p-8 my-0 md:my-12 lg:my-24">
                 <div className='imgDiv'>
                     <Image></Image>
                 </div>
