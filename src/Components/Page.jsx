@@ -80,7 +80,7 @@ const Page = () => {
                         </div>
 
                         <div className='flex-1'>
-                            <p className='text-[#854632] font-bold'>277kcal</p>
+                            <p className='text-[#854632] font-bold'>288kcal</p>
                         </div>
                     </div>
 
@@ -100,13 +100,13 @@ const Page = () => {
                         </div>
 
                         <div className='flex-1'>
-                            <p className='text-[#854632] font-bold'>20g</p>
+                            <p className='text-[#854632] font-bold'>25g</p>
                         </div>
                     </div>
 
                     <div className='flex pt-3 px-8'>
                         <div className='flex-1'>
-                            <p className='text-[#57574E] font-medium'>Fat</p>
+                            <p className='text-[#57574E] font-medium'>Fats</p>
                         </div>
 
                         <div className='flex-1'>
